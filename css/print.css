@@ -1,0 +1,82 @@
+.sr-only
+{
+    display: none;
+}
+
+.search-query
+{
+    display: none;
+}
+
+input[name="btnG"]
+{
+    display: none;
+}
+
+#footer .FooterBottom .text p a,#footer .FooterBottom .text p
+{
+    color: #000;
+}
+
+div.NavLayout
+{
+    display: none;
+}
+
+.navbar-nav li a
+{
+    color: #000 !important;
+}
+
+.navbar navbar-inverse globalnav
+{
+    display: none;
+}
+
+
+.globalBtn
+{
+    display: block;
+}
+
+.DropdownNav div > ul > li
+{
+    display: inline-block;
+
+}
+
+#respbanner .theNav .navbar li
+{
+    width: inherit;
+    float: left;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#respbanner .theNav .navbar li a
+{
+    font-weight: normal;
+    padding: 0px;
+}
+#respbanner .theNav .navbar ul
+{
+    margin: 0;
+    padding-left: 0px;
+}
+
+.nav.navbar-nav.collapse.navbar-collapse.navbar-ex1-collapse
+{
+    display: none;
+}
+
+#header .navbar-brand.visible-xs
+{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer .navbar-brand.visible-xs
+{
+    display: none;
+}

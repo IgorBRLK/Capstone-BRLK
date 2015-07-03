@@ -1,0 +1,2 @@
+Options -Indexes
+ErrorDocument 403 "Umm.... this is awkward you don't have access to this"

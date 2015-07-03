@@ -1,0 +1,1 @@
+<?php if (!defined('SMF')) die; if (1430002299 < time()) $expired = true; else{$expired = false; $value = 's:40:"ec2-54-209-60-63.compute-1.amazonaws.com";';}?>

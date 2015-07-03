@@ -1,0 +1,1 @@
+<?php if (!defined('SMF')) die; if (1429989918 < time()) $expired = true; else{$expired = false; $value = 's:34:"cpe-74-140-190-42.cinci.res.rr.com";';}?>

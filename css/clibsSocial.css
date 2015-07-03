@@ -1,0 +1,353 @@
+/* Social Media component */
+
+ul.socialmediaicons {
+    list-style:none;
+    list-style-image:none;
+    display:block;
+    margin:0;
+    padding:0;
+    }
+    
+.socialmediaicons li {
+    display:inline;
+    list-style:none;
+    list-style-image:none;
+    padding:0;
+    overflow:hidden;
+    }
+
+.socialmediaicons.left li { margin:0 5px 5px 0; }
+.socialmediaicons.center li { margin:0 3px; }
+.socialmediaicons.right li { margin:0 0 5px 5px; }
+
+.socialmediaicons li a {
+    display:inline-block;
+    background-position:center center;
+    background-repeat:no-repeat;
+    }
+
+.socialmediaicons li a span {
+    display:none;
+    }
+
+.socialmediaicons.size-16x16 li a { width:16px; height:16px; }
+.socialmediaicons.size-24x24 li a { width:24px; height:24px; }
+.socialmediaicons.size-32x32 li a { width:32px; height:32px; }
+.socialmediaicons.size-48x48 li a { width:48px; height:48px; }
+
+.socialmediaicons.left {
+    text-align:left;
+    }
+    
+.socialmediaicons.center {
+    text-align:center;
+    }
+    
+.socialmediaicons.right {
+    text-align:right;
+    }
+
+.socialmediaicons.size-16x16 li.aim a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/aim.png'); }
+.socialmediaicons.size-16x16 li.blogger a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/blogger.png'); }
+.socialmediaicons.size-16x16 li.email a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/email.png'); }
+.socialmediaicons.size-16x16 li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-16x16 li.rss a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/rss.png'); }
+.socialmediaicons.size-16x16 li.flickr a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/flickr.png'); }
+.socialmediaicons.size-16x16 li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/foursquare.png'); }
+.socialmediaicons.size-16x16 li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/googleplus.png'); }
+.socialmediaicons.size-16x16 li.itunes a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/itunes.png'); }
+.socialmediaicons.size-16x16 li.instagram a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/instagram.png'); }
+.socialmediaicons.size-16x16 li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/linkedin.png'); }
+.socialmediaicons.size-16x16 li.mobile a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/mobile.png'); }
+.socialmediaicons.size-16x16 li.myspace a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/myspace.png'); }
+.socialmediaicons.size-16x16 li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/pinterest.png'); }
+.socialmediaicons.size-16x16 li.reddit a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/reddit.png'); }
+.socialmediaicons.size-16x16 li.skype a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/skype.png'); }
+.socialmediaicons.size-16x16 li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/tumblr.png'); }
+.socialmediaicons.size-16x16 li.twitter a { background-image:url('../images/twitter.png'); }
+.socialmediaicons.size-16x16 li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/vimeo.png'); }
+.socialmediaicons.size-16x16 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/wordpress.png'); }
+.socialmediaicons.size-16x16 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/yelp.png'); }
+.socialmediaicons.size-16x16 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/youtube.png'); }
+.socialmediaicons.size-16x16 li.more a { background-image:url('/content/dam/common/images/socialmedia/16x16_icon/more.png'); }
+
+.socialmediaicons.size-24x24 li.aim a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/aim.png'); }
+.socialmediaicons.size-24x24 li.blogger a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/blogger.png'); }
+.socialmediaicons.size-24x24 li.email a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/email.png'); }
+.socialmediaicons.size-24x24 li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-24x24 li.rss a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/rss.png'); }
+.socialmediaicons.size-24x24 li.flickr a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/flickr.png'); }
+.socialmediaicons.size-24x24 li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/foursquare.png'); }
+.socialmediaicons.size-24x24 li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/google+.png'); }
+.socialmediaicons.size-24x24 li.itunes a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/itunes.png'); }
+.socialmediaicons.size-24x24 li.instagram a { background-image:url('../images/twitter.png'); }
+.socialmediaicons.size-24x24 li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/linkedin.png'); }
+.socialmediaicons.size-24x24 li.mobile a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/mobile.png'); }
+.socialmediaicons.size-24x24 li.myspace a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/myspace.png'); }
+.socialmediaicons.size-24x24 li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/pinterest.png'); }
+.socialmediaicons.size-24x24 li.reddit a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/reddit.png'); }
+.socialmediaicons.size-24x24 li.skype a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/skype.png'); }
+.socialmediaicons.size-24x24 li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/tumblr.png'); }
+.socialmediaicons.size-24x24 li.twitter a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/twitter.png'); }
+.socialmediaicons.size-24x24 li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/vimeo.png'); }
+.socialmediaicons.size-24x24 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/wordpress.png'); }
+.socialmediaicons.size-24x24 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/yelp.png'); }
+.socialmediaicons.size-24x24 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/youtube.png'); }
+.socialmediaicons.size-24x24 li.more a { background-image:url('/content/dam/common/images/socialmedia/24x24_icon/more.png'); }
+
+.socialmediaicons.size-32x32 li.aim a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/aim.png'); }
+.socialmediaicons.size-32x32 li.blogger a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/blogger.png'); }
+.socialmediaicons.size-32x32 li.email a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/email.png'); }
+.socialmediaicons.size-32x32 li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-32x32 li.rss a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/rss.png'); }
+.socialmediaicons.size-32x32 li.flickr a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/flickr.png'); }
+.socialmediaicons.size-32x32 li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/foursquare.png'); }
+.socialmediaicons.size-32x32 li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/google+.png'); }
+.socialmediaicons.size-32x32 li.itunes a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/itunes.png'); }
+.socialmediaicons.size-32x32 li.instagram a { background-image:url('../images/instagram.png'); }
+.socialmediaicons.size-32x32 li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/linkedin.png'); }
+.socialmediaicons.size-32x32 li.mobile a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/mobile.png'); }
+.socialmediaicons.size-32x32 li.myspace a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/myspace.png'); }
+.socialmediaicons.size-32x32 li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/pinterest.png'); }
+.socialmediaicons.size-32x32 li.reddit a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/reddit.png'); }
+.socialmediaicons.size-32x32 li.skype a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/skype.png'); }
+.socialmediaicons.size-32x32 li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/tumblr.png'); }
+.socialmediaicons.size-32x32 li.twitter a { background-image:url('../images/twitter.png'); }
+.socialmediaicons.size-32x32 li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/vimeo.png'); }
+.socialmediaicons.size-32x32 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/wordpress.png'); }
+.socialmediaicons.size-32x32 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/yelp.png'); }
+.socialmediaicons.size-32x32 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/youtube.png'); }
+.socialmediaicons.size-32x32 li.more a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/more.png'); }
+
+.socialmediaicons.size-48x48 li.aim a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/aim.png'); }
+.socialmediaicons.size-48x48 li.blogger a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/blogger.png'); }
+.socialmediaicons.size-48x48 li.email a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/email.png'); }
+.socialmediaicons.size-48x48 li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-48x48 li.rss a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/rss.png'); }
+.socialmediaicons.size-48x48 li.flickr a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/flickr.png'); }
+.socialmediaicons.size-48x48 li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/foursquare.png'); }
+.socialmediaicons.size-48x48 li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/google+.png'); }
+.socialmediaicons.size-48x48 li.itunes a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/itunes.png'); }
+.socialmediaicons.size-48x48 li.instagram a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/instagram.png'); }
+.socialmediaicons.size-48x48 li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/linkedin.png'); }
+.socialmediaicons.size-48x48 li.mobile a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/mobile.png'); }
+.socialmediaicons.size-48x48 li.myspace a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/myspace.png'); }
+.socialmediaicons.size-48x48 li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/pinterest.png'); }
+.socialmediaicons.size-48x48 li.reddit a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/reddit.png'); }
+.socialmediaicons.size-48x48 li.skype a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/skype.png'); }
+.socialmediaicons.size-48x48 li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/tumblr.png'); }
+.socialmediaicons.size-48x48 li.twitter a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/twitter.png'); }
+.socialmediaicons.size-48x48 li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/vimeo.png'); }
+.socialmediaicons.size-48x48 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/wordpress.png'); }
+.socialmediaicons.size-48x48 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/yelp.png'); }
+.socialmediaicons.size-48x48 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/youtube.png'); }
+.socialmediaicons.size-48x48 li.more a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/more.png'); }
+
+/* retina displays */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .socialmediaicons.size-16x16 li a { background-size:16px 16px; }
+    .socialmediaicons.size-24x24 li a { background-size:24px 24px; }
+    .socialmediaicons.size-32x32 li a { background-size:32px 32px; }
+    .socialmediaicons.size-48x48 li a { background-size:48px 48px; }
+    
+    .socialmediaicons.size-16x16 li.aim a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/aim.png'); }
+    .socialmediaicons.size-16x16 li.blogger a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/blogger.png'); }
+    .socialmediaicons.size-16x16 li.email a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/email.png'); }
+    .socialmediaicons.size-16x16 li.facebook a { background-image:url('../images/facebook.png'); }
+    .socialmediaicons.size-16x16 li.rss a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/rss.png'); }
+    .socialmediaicons.size-16x16 li.flickr a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/flickr.png'); }
+    .socialmediaicons.size-16x16 li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/foursquare.png'); }
+    .socialmediaicons.size-16x16 li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/google+.png'); }
+    .socialmediaicons.size-16x16 li.itunes a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/itunes.png'); }
+    .socialmediaicons.size-16x16 li.instagram a { background-image:url('../images/instagram.png'); }
+    .socialmediaicons.size-16x16 li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/linkedin.png'); }
+    .socialmediaicons.size-16x16 li.mobile a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/mobile.png'); }
+    .socialmediaicons.size-16x16 li.myspace a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/myspace.png'); }
+    .socialmediaicons.size-16x16 li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/pinterest.png'); }
+    .socialmediaicons.size-16x16 li.reddit a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/reddit.png'); }
+    .socialmediaicons.size-16x16 li.skype a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/skype.png'); }
+    .socialmediaicons.size-16x16 li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/tumblr.png'); }
+    .socialmediaicons.size-16x16 li.twitter a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/twitter.png'); }
+    .socialmediaicons.size-16x16 li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/vimeo.png'); }
+    .socialmediaicons.size-16x16 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/wordpress.png'); }
+    .socialmediaicons.size-16x16 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/yelp.png'); }
+    .socialmediaicons.size-16x16 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/youtube.png'); }
+    .socialmediaicons.size-16x16 li.more a { background-image:url('/content/dam/common/images/socialmedia/32x32_icon/more.png'); }
+    
+    .socialmediaicons.size-24x24 li.aim a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/aim.png'); }
+    .socialmediaicons.size-24x24 li.blogger a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/blogger.png'); }
+    .socialmediaicons.size-24x24 li.email a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/email.png'); }
+    .socialmediaicons.size-24x24 li.facebook a { background-image:url('../images/facebook.png'); }
+    .socialmediaicons.size-24x24 li.rss a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/rss.png'); }
+    .socialmediaicons.size-24x24 li.flickr a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/flickr.png'); }
+    .socialmediaicons.size-24x24 li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/foursquare.png'); }
+    .socialmediaicons.size-24x24 li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/google+.png'); }
+    .socialmediaicons.size-24x24 li.itunes a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/itunes.png'); }
+    .socialmediaicons.size-24x24 li.instagram a { background-image:url('../images/instagram.png'); }
+    .socialmediaicons.size-24x24 li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/linkedin.png'); }
+    .socialmediaicons.size-24x24 li.mobile a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/mobile.png'); }
+    .socialmediaicons.size-24x24 li.myspace a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/myspace.png'); }
+    .socialmediaicons.size-24x24 li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/pinterest.png'); }
+    .socialmediaicons.size-24x24 li.reddit a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/reddit.png'); }
+    .socialmediaicons.size-24x24 li.skype a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/skype.png'); }
+    .socialmediaicons.size-24x24 li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/tumblr.png'); }
+    .socialmediaicons.size-24x24 li.twitter a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/twitter.png'); }
+    .socialmediaicons.size-24x24 li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/vimeo.png'); }
+    .socialmediaicons.size-24x24 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/wordpress.png'); }
+    .socialmediaicons.size-24x24 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/yelp.png'); }
+    .socialmediaicons.size-24x24 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/youtube.png'); }
+    .socialmediaicons.size-24x24 li.more a { background-image:url('/content/dam/common/images/socialmedia/48x48_icon/more.png'); }
+
+}
+
+.socialmediaicons.size-16x16.set-ucred li.aim a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/aim.png'); }
+.socialmediaicons.size-16x16.set-ucred li.blogger a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/blogger.png'); }
+.socialmediaicons.size-16x16.set-ucred li.email a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/email.png'); }
+.socialmediaicons.size-16x16.set-ucred li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-16x16.set-ucred li.rss a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/rss.png'); }
+.socialmediaicons.size-16x16.set-ucred li.flickr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/flickr.png'); }
+.socialmediaicons.size-16x16.set-ucred li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/foursquare.png'); }
+.socialmediaicons.size-16x16.set-ucred li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/google+.png'); }
+.socialmediaicons.size-16x16.set-ucred li.itunes a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/itunes.png'); }
+.socialmediaicons.size-16x16.set-ucred li.instagram a { background-image:url('../images/instagram.png'); }
+.socialmediaicons.size-16x16.set-ucred li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/linkedin.png'); }
+.socialmediaicons.size-16x16.set-ucred li.mobile a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/mobile.png'); }
+.socialmediaicons.size-16x16.set-ucred li.myspace a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/myspace.png'); }
+.socialmediaicons.size-16x16.set-ucred li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/pinterest.png'); }
+.socialmediaicons.size-16x16.set-ucred li.reddit a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/reddit.png'); }
+.socialmediaicons.size-16x16.set-ucred li.skype a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/skype.png'); }
+.socialmediaicons.size-16x16.set-ucred li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/tumblr.png'); }
+.socialmediaicons.size-16x16.set-ucred li.twitter a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/twitter.png'); }
+.socialmediaicons.size-16x16.set-ucred li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/vimeo.png'); }
+.socialmediaicons.size-16x16.set-ucred li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/wordpress.png'); }
+.socialmediaicons.size-16x16.set-ucred li.yelp a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/yelp.png'); }
+.socialmediaicons.size-16x16.set-ucred li.youtube a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/youtube.png'); }
+.socialmediaicons.size-16x16.set-ucred li.more a { background-image:url('/content/dam/common/images/socialmedia/ucRed/16x16_icon/more.png'); }
+
+.socialmediaicons.size-24x24.set-ucred li.aim a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/aim.png'); }
+.socialmediaicons.size-24x24.set-ucred li.blogger a { background-image:url('/content/dam/common/images/socialmedia/2ucred/4x24_icon/blogger.png'); }
+.socialmediaicons.size-24x24.set-ucred li.email a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/email.png'); }
+.socialmediaicons.size-24x24.set-ucred li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-24x24.set-ucred li.rss a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/rss.png'); }
+.socialmediaicons.size-24x24.set-ucred li.flickr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/flickr.png'); }
+.socialmediaicons.size-24x24.set-ucred li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/foursquare.png'); }
+.socialmediaicons.size-24x24.set-ucred li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/google+.png'); }
+.socialmediaicons.size-24x24.set-ucred li.itunes a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/itunes.png'); }
+.socialmediaicons.size-24x24.set-ucred li.instagram a { background-image:url('../images/instagram.png'); }
+.socialmediaicons.size-24x24.set-ucred li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/linkedin.png'); }
+.socialmediaicons.size-24x24.set-ucred li.mobile a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/mobile.png'); }
+.socialmediaicons.size-24x24.set-ucred li.myspace a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/myspace.png'); }
+.socialmediaicons.size-24x24.set-ucred li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/pinterest.png'); }
+.socialmediaicons.size-24x24.set-ucred li.reddit a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/reddit.png'); }
+.socialmediaicons.size-24x24.set-ucred li.skype a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/skype.png'); }
+.socialmediaicons.size-24x24.set-ucred li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/tumblr.png'); }
+.socialmediaicons.size-24x24.set-ucred li.twitter a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/twitter.png'); }
+.socialmediaicons.size-24x24.set-ucred li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/vimeo.png'); }
+.socialmediaicons.size-24x24 li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/wordpress.png'); }
+.socialmediaicons.size-24x24 li.yelp a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/yelp.png'); }
+.socialmediaicons.size-24x24 li.youtube a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/youtube.png'); }
+.socialmediaicons.size-24x24 li.more a { background-image:url('/content/dam/common/images/socialmedia/ucRed/24x24_icon/more.png'); }
+
+.socialmediaicons.size-32x32.set-ucred li.aim a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/aim.png'); }
+.socialmediaicons.size-32x32.set-ucred li.blogger a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/blogger.png'); }
+.socialmediaicons.size-32x32.set-ucred li.email a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/email.png'); }
+.socialmediaicons.size-32x32.set-ucred li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-32x32.set-ucred li.rss a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/rss.png'); }
+.socialmediaicons.size-32x32.set-ucred li.flickr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/flickr.png'); }
+.socialmediaicons.size-32x32.set-ucred li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/foursquare.png'); }
+.socialmediaicons.size-32x32.set-ucred li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/google+.png'); }
+.socialmediaicons.size-32x32.set-ucred li.itunes a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/itunes.png'); }
+.socialmediaicons.size-32x32.set-ucred li.instagram a { background-image:url('../images/instagram.png'); }
+.socialmediaicons.size-32x32.set-ucred li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/linkedin.png'); }
+.socialmediaicons.size-32x32.set-ucred li.mobile a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/mobile.png'); }
+.socialmediaicons.size-32x32.set-ucred li.myspace a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/myspace.png'); }
+.socialmediaicons.size-32x32.set-ucred li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/pinterest.png'); }
+.socialmediaicons.size-32x32.set-ucred li.reddit a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/reddit.png'); }
+.socialmediaicons.size-32x32.set-ucred li.skype a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/skype.png'); }
+.socialmediaicons.size-32x32.set-ucred li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/tumblr.png'); }
+.socialmediaicons.size-32x32.set-ucred li.twitter a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/twitter.png'); }
+.socialmediaicons.size-32x32.set-ucred li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/vimeo.png'); }
+.socialmediaicons.size-32x32.set-ucred li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/wordpress.png'); }
+.socialmediaicons.size-32x32.set-ucred li.yelp a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/yelp.png'); }
+.socialmediaicons.size-32x32.set-ucred li.youtube a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/youtube.png'); }
+.socialmediaicons.size-32x32.set-ucred li.more a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/more.png'); }
+
+.socialmediaicons.size-48x48.set-ucred li.aim a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/aim.png'); }
+.socialmediaicons.size-48x48.set-ucred li.blogger a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/blogger.png'); }
+.socialmediaicons.size-48x48.set-ucred li.email a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/email.png'); }
+.socialmediaicons.size-48x48.set-ucred li.facebook a { background-image:url('../images/facebook.png'); }
+.socialmediaicons.size-48x48.set-ucred li.rss a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/rss.png'); }
+.socialmediaicons.size-48x48.set-ucred li.flickr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/flickr.png'); }
+.socialmediaicons.size-48x48.set-ucred li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/foursquare.png'); }
+.socialmediaicons.size-48x48.set-ucred li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/googleplus.png'); }
+.socialmediaicons.size-48x48.set-ucred li.itunes a { background-image:url('../images/instagram.png'); }
+.socialmediaicons.size-48x48.set-ucred li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/linkedin.png'); }
+.socialmediaicons.size-48x48.set-ucred li.mobile a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/mobile.png'); }
+.socialmediaicons.size-48x48.set-ucred li.myspace a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/myspace.png'); }
+.socialmediaicons.size-48x48.set-ucred li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/pinterest.png'); }
+.socialmediaicons.size-48x48.set-ucred li.reddit a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/reddit.png'); }
+.socialmediaicons.size-48x48.set-ucred li.skype a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/skype.png'); }
+.socialmediaicons.size-48x48.set-ucred li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/tumblr.png'); }
+.socialmediaicons.size-48x48.set-ucred li.twitter a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/twitter.png'); }
+.socialmediaicons.size-48x48.set-ucred li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/vimeo.png'); }
+.socialmediaicons.size-48x48.set-ucred li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/wordpress.png'); }
+.socialmediaicons.size-48x48.set-ucred li.yelp a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/yelp.png'); }
+.socialmediaicons.size-48x48.set-ucred li.youtube a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/youtube.png'); }
+.socialmediaicons.size-48x48.set-ucred li.more a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/more.png'); }
+
+/* retina displays */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .socialmediaicons.size-16x16.set-ucred li a { background-size:16px 16px; }
+    .socialmediaicons.size-24x24.set-ucred li a { background-size:24px 24px; }
+    .socialmediaicons.size-32x32.set-ucred li a { background-size:32px 32px; }
+    .socialmediaicons.size-48x48.set-ucred li a { background-size:48px 48px; }
+    
+    .socialmediaicons.size-16x16.set-ucred li.aim a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/aim.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.blogger a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/blogger.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.email a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/email.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.facebook a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/facebook.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.rss a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/rss.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.flickr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/flickr.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/foursquare.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/googleplus.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.itunes a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/itunes.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.instagram a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/instagram.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/linkedin.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.mobile a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/mobile.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.myspace a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/myspace.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/pinterest.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.reddit a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/reddit.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.skype a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/skype.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/tumblr.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.twitter a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/twitter.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/vimeo.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/wordpress.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.yelp a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/yelp.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.youtube a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/youtube.png'); }
+    .socialmediaicons.size-16x16.set-ucred li.more a { background-image:url('/content/dam/common/images/socialmedia/ucRed/32x32_icon/more.png'); }
+    
+    .socialmediaicons.size-24x24.set-ucred li.aim a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/aim.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.blogger a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/blogger.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.email a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/email.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.facebook a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/facebook.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.rss a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/rss.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.flickr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/flickr.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.foursquare a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/foursquare.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.googleplus a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/googleplus.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.itunes a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/itunes.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.instagram a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/instagram.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.linkedin a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/linkedin.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.mobile a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/mobile.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.myspace a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/myspace.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.pinterest a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/pinterest.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.reddit a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/reddit.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.skype a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/skype.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.tumblr a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/tumblr.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.twitter a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/twitter.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.vimeo a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/vimeo.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.wordpress a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/wordpress.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.yelp a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/yelp.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.youtube a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/youtube.png'); }
+    .socialmediaicons.size-24x24.set-ucred li.more a { background-image:url('/content/dam/common/images/socialmedia/ucRed/48x48_icon/more.png'); }
+
+}
