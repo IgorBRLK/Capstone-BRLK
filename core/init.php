@@ -2,7 +2,7 @@
 // start the session
 session_start();
 // here is where you define everything about the database
-$GLOBALS['config'] = array('mysql' => array('host' => 'localhost', 'username' => 'root', 'password' => 'ichigo', 'db' => 'groupproject'), 'remember' => array('cookie_name' => 'hash', 'cookie_expiry' => 30), 'session' => array('session_name' => 'user','session_date' => 'date', 'token_name' => 'token'));
+$GLOBALS['config'] = array('mysql' => array('host' => 'localhost', 'username' => '', 'password' => '', 'db' => ''), 'remember' => array('cookie_name' => 'hash', 'cookie_expiry' => 30), 'session' => array('session_name' => 'user','session_date' => 'date', 'token_name' => 'token'));
 // outoloader loads these classes by only requiring it once
 spl_autoload_register(function($class) {
 	// when say User = new User is passed then this will load the class
